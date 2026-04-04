@@ -43,27 +43,8 @@ Danchive의 목표는 “전시 전 과정(팀 → 작품 → 전시 → 평가)
 
 
 
-**팀**
-
-프로젝트 수행을 위해 구성된 팀의 역할 분담과 협업 방식에 대해 간략히 소개한다.
-
-**팀원**
-
-총 2명의 팀원으로 구성되어 있으며, 프로젝트 매니저(PM), UX/UI 및 프론트엔드(FE), 데이터베이스 설계 및 백엔드(BE)로 역할을 분담하였다.
 
 
-**이름**
-역할
-한승진
-PM, 데이터베이스 설계, 백엔드 개발 (Spring Boot, CI/CD)
-최혁준
-UX/UI 디자인, 프론트엔드 개발 (React Native, Figma)
-
-
-
-**스킬 및 협업 도구**
-디자인 및 협업: Figma를 통한 와이어프레임 설계, Notion을 통한 회의·피드백 기록
-버전 관리: GitHub를 활용한 소스 및 문서 통합 관리
 
 구분
 **기술**
@@ -77,8 +58,7 @@ MySQL
 Docker, Kubernetes
 CI/CD
 Jenkins, ArgoCD
-협업도구
-GitHub, Notion, Figma
+
 
 
 
@@ -139,17 +119,24 @@ Danchive의 사용자 흐름은 “탐색(조회) – 참여(투표/평가) – 
 
 **구현 화면**
 
-랜딩 페이지 → 회원가입 페이지 → 로그인 페이지 → 메인 페이지
+**랜딩 페이지 → 회원가입 페이지 → 로그인 페이지 → 메인 페이지**
 
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/dc6470ce-1a3b-435c-92aa-05e6da8d3ce9" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/e3670f42-ddec-4757-a52e-7f49f2169167" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/31c47bf0-7a34-43cf-b400-f62b741c8b7c" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/40b6fb9a-4943-432f-b379-4ee03cca761b" />
 
 회원 가입 시 이름, 학번, 소속 학부, 이메일, 비밀번호를 입력해 회원 가입, 이메일의 양식이 틀릴 경우에 오류 발생
 로그인 시 회원 가입 할 때 입력한 이메일과 비밀번호를 입력해 로그인, 존재하지 않는 이메일이거나 옳바르지 않은 비밀번호 일 경우에 에러 메시지 출력, 로그인 성공 시 토큰 발행
 로그인 페이지에서 remember me 체크박스에 체크 할 경우 로그아웃 전까지 토큰 유지
 로그인 성공 시 메인 페이지 이동, 메인 페이지에는 진행 되고 있는 전시회가 배너로 가장 먼저 표시, 배너에는 다양한 요소 등록 가능, 배너 클릭 시 해당 전시회의 작품 리스트 페이지로 이동
 메인 페이지에는 등록한 공지사항이 표시가능, 공지사항 클릭할 시 해당 공지사항의 상세 페이지로 이동
-팀 생성 → 팀원 초대 → 초대 수락 → 마이페이지
+**팀 생성 → 팀원 초대 → 초대 수락 → 마이페이지**
 
-
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/7b8e5881-330a-45fe-a83f-31bb7f3cef62" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/40f9d46a-35f0-4160-a8af-72aeddcfd85e" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/24594eba-c7cf-4035-947d-84e60b725ff5" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/23759636-d681-40c7-8ca9-587f895b3471" />
 
 마이 페이지에는 유저의 이름, 팀 이름, 팀원, 역할, 그리고 등록한 작품의 이름이 상단에 노출, 하단에는 팀 생성, 팀원 초대, 작품 등록, 초대 현황, 비밀번호 재설정, 회원 탈퇴, 로그아웃 버튼이 있음.
 마이 페이지에서 팀 생성 버튼을 누르고 팀 이름을 입력하면 팀이 생성, 생성한 유저가 자동으로 팀장 부여
@@ -165,9 +152,12 @@ Danchive의 사용자 흐름은 “탐색(조회) – 참여(투표/평가) – 
 
 
 
+**작품 등록 → 전시회 페이지 → 작품 페이지 → 작품 상세**
 
-작품 등록 → 전시회 페이지 → 작품 페이지 → 작품 상세
-
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/8a3f4def-0416-46f1-863d-8025c0d6251c" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/c527285f-a3b6-4851-b2c0-5268fb653c40" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/94309ecc-cb42-48a2-bfd9-dbf17bb08e80" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/fb873348-e3c1-40fd-aa43-ee582a475e2f" />
 
 
 포스터 이미지를 선택 후, 작품의 제목, 간략한 설명, 상세 설명, 그리고 카테고리를 입력
@@ -187,7 +177,12 @@ Danchive의 사용자 흐름은 “탐색(조회) – 참여(투표/평가) – 
 
 
 
-방문객/참여자 투표 및 교수 평가 → 수상작 선정
+**방문객/참여자 투표 및 교수 평가 → 수상작 선정**
+
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/1a229b93-059b-4d75-b70c-49f9ca176c7f" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/dbcc76fc-fbd5-4649-90f3-3f5cfb6e1c56" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/1babd14d-0b5f-4f1a-960d-ccbff9e622e6" />
+<img width="220" height="512" alt="Image" src="https://github.com/user-attachments/assets/18bb8f38-8fa3-42f1-8540-dff2201fbf1b" />
 
 
 작품 상세 페이지에서 작품 평가하기 버튼을 누르면 작품 평가 페이지로 이동, 버튼을 누른 유저의 역할이 교수일 경우 교수 평가 페이지, 아닐 경우에는 방문객/참여자 평가 페이지로 이동
