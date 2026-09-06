@@ -46,7 +46,7 @@ Danchive의 목표는 “전시 전 과정(팀 → 작품 → 전시 → 평가)
 
 
 
-구분
+
 **기술**
 프론트엔드
 React Native
@@ -66,7 +66,7 @@ Jenkins, ArgoCD
 
 **시스템 아키텍처**
 본 프로젝트는 GitHub, Jenkins, Argo CD, Kubernetes를 통해 코드 커밋 이후 빌드, 이미지 생성, 배포까지의 전 과정을 CI/CD 파이프라인으로 자동화하였다.
-
+[!시스템 아키텍쳐](
 
 
 개발자 코드 커밋
